@@ -75,8 +75,8 @@ function App() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 flex-col lg:items-center lg:justify-between">
-      <h1 className="text-lg  text-center mb-10 lg:text-left">
+    <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 flex-col items-center lg:justify-between">
+      <h1 className="text-lg  text-center mb-10 md:text-left">
         GraphQL-WS Client
       </h1>
       <form onSubmit={(e) => e.preventDefault()}>
